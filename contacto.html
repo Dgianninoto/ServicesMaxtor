@@ -28,26 +28,48 @@
         </ul>
     </nav>
     <h3 id="tituloContacto">Formulario de contactado</h3>
-    <main>
-        <div class="formulario">
-            <form   action="" method="post">
-                <fieldset>
-                    <h4>Informacion de contacto</h4>
-                    Nombre Completo <input type="text" name="" id="" required><br>
-                    Email <input type="email" name="" id="" required><br>
-                    Comentarios <br>
-                    <textarea name="" cols="52" rows="6" placeholder="ingrese algun comentario" ></textarea><br>
-                    <input id="enviar" type="submit" value="Enviar">
-                    <input id="reset"  type="reset" value="reset info">
-                </fieldset>   
-            </form>
-        </div>
-        <div class="mapa" >
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1640.317296983833!2d-58.56388381640102!3d-34.689170697554694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc6228100877b%3A0xea490b3f7ef7f2b5!2sBalbastro%203598-3500%2C%20B1754GPL%20San%20Justo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1638202852296!5m2!1ses!2sar" width="1024" height="768" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-        <div class="textFormulario">
-            <p>Balbastro 3537| San justo | Provincia de Buenos aires</p>
-        </div>
+    <main class="mainCont" >
+        <div class="page-section">
+            <div class="container">
+                <div class="row align-items-top">
+                    <div class="col-lg-6 py-3">
+                        <h2 class="title-section">Nuestros Datos</h2>
+                        <div class="divider"></div>
+                        <p class="pDatos">Services Maxtor</p>        
+                        <ul class="contact-list">
+                            <li>
+                                <div class="content">Balbastro 3537, Buenos Aires, Argentina</div>
+                            </li>
+                            <li>
+                                <div class="content"><a href="#">servicesmaxtor@gmail.com</a></div>
+                            </li>
+                            <li>
+                                <div class="content"><a href="#">+54 1162445195</a></div>
+                            </li>
+                        </ul>
+                        <div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2319.7752485387487!2d-58.56198068741013!3d-34.6885897328556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc6228100877b%3A0x58caa451d852892f!2sBalbastro%203537%2C%20B1754GPK%20San%20Justo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1638219263336!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 py-3">
+                        <h2 class="title-section">Envienos su consulta</h2>
+                        <div class="divider"></div>        
+                        <form action="#">
+                            <div class="py-2">
+                                <input type="text" class="form-control" placeholder="Nombre Completo">
+                            </div>
+                            <div class="py-2">
+                                <input type="text" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="py-2">
+                                <textarea rows="6" class="form-control" placeholder="Ingrese su consulta"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary rounded-pill mt-4">Enviar mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div> 
+        </div>        
     </main>
     <footer>
         <p class="text-center"> Services Maxtor @ 2021 | Contacto: servicesmaxtor@gmail.com | whatsApp: +541162445195

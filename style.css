@@ -32,6 +32,19 @@
   .text {
     font-size: 16px;
   }
+
+  .imgServ {
+    width: 100%;
+    height: 80px;
+  }
+
+  .textServ {
+    font-size: 16px;
+  }
+
+  footer {
+    height: 100px;
+  }
 }
 @media only screen and (min-width: 768px) {
   header h1 {
@@ -58,6 +71,19 @@
   .text {
     font-size: 20px;
   }
+
+  .imgServ {
+    width: 100%;
+    height: 110px;
+  }
+
+  .textServ {
+    font-size: 25px;
+  }
+
+  footer {
+    height: 80px;
+  }
 }
 @media only screen and (min-width: 1024px) {
   header h1 {
@@ -83,6 +109,19 @@
 
   .text {
     font-size: 30px;
+  }
+
+  .imgServ {
+    width: 100%;
+    height: 220px;
+  }
+
+  .textServ {
+    font-size: 35px;
+  }
+
+  footer {
+    height: 70px;
   }
 }
 /*-------barra de navegacion------*/
@@ -192,7 +231,6 @@ footer {
   padding: 15px;
   margin-top: 5px;
   justify-content: center;
-  height: 70px;
   width: 100%;
 }
 footer p a {
@@ -242,13 +280,7 @@ h5 {
   margin-bottom: 25px;
 }
 
-.imgServ {
-  width: 100%;
-  height: 220px;
-}
-
 .textServ {
-  font-size: 35px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -302,79 +334,19 @@ section ul {
 }
 
 /*--------------------------Contacto---------------*/
-.mapa {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  margin-top: 20px;
+.mainCont {
+  background-color: lightgray;
 }
 
-.formulario {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: #a0e3f1;
-  border: 3px black double;
-  width: 100%;
-  height: 500px;
-  font-size: 25px;
-}
-.formulario h4 {
-  font-size: 35px;
-  color: black;
-  text-transform: bold;
+.title-section {
+  font: 40px sans-serif;
+  text-decoration: underline;
 }
 
-.textFormulario {
-  text-align: center;
-  font-size: 25px;
-}
-
-#enviar {
-  background-color: #1766dd;
-  color: white;
+.pDatos {
   font-size: 30px;
-  padding: 5px;
 }
 
-#reset {
-  background-color: #e73838;
-  color: white;
-  font-size: 30px;
-  padding: 5px;
-}
-
-/*-
-
-fieldset{
-    background-color: $back;
-    h4{
-        font-size: 20px;
-        color: black;
-    }
-}
-#enviar{
-    background-color:rgb(23, 102, 221) ;
-    color: white;
-    font-size: 30px;
-    padding: 5px;
-}
-#reset{
-    background-color: rgb(231, 56, 56);
-    color: white;
-    font-size: 30px;
-    padding: 5px;
-}
-section iframe{
-    width: 100%;
-    height: 472px;
-}
-section p{
-    font-size: 25px;
-    text-transform: uppercase;
-    color:rgb(16, 124, 224);
-}
 /*-Error 404-*/
 #error {
   width: 100%;
