@@ -26,11 +26,12 @@ $back:lightgray;
     h3{
         font-size: 16px;
     }
-    
+    /*-
     main{
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
+    -*/
     .text{
         font-size: 16px;
     }
@@ -42,9 +43,16 @@ $back:lightgray;
         font-size: 16px;
     } 
     footer{
-        height: 100px;
-    }   
-    
+        height: 150px;
+        width: 100%;
+    }
+    .fotoInfo{
+        width: 380px;
+        height: 180px;
+    }
+    h5{       
+        font-size: 25px;;
+    } 
 }
 @media only screen and (min-width:768px){
     header h1{
@@ -74,9 +82,16 @@ $back:lightgray;
         font-size: 25px;
     } 
     footer{
-        height: 80px;
+        height: 110px;
+        width: 100%
+    }
+    .fotoInfo{
+        width: 480px;
+        height: 280px;
+    }
+    h5{       
+        font-size: 35px;;
     }   
-        
 }
     @media only screen and (min-width:1024px){
     header h1{
@@ -107,8 +122,15 @@ $back:lightgray;
     } 
     footer{
         height: 70px;
-    }   
-      
+        width: 100%;
+    }
+    .fotoInfo{
+        width: 680px;
+        height: 380px;
+    }
+    h5{       
+        font-size: 45px;;
+    }      
 }
 /*-------barra de navegacion------*/
 body::-webkit-scrollbar{
@@ -203,12 +225,12 @@ h3{
     height: 35px;
 }
 footer{
-    color: white;
+    color: white;   
     font-size: 16px;
     background-color: $primario;
     padding:15px;
-    margin-top: 5px;  
-    justify-content: center;
+    margin-top: 5px;   
+    justify-content: space-around;
     width: 100%;
     p a{  
         color: white;
@@ -227,16 +249,12 @@ footer{
     justify-content:center;
 }
 .fotoInfo{
-    width: 680px;
-    height: 380px;
     border: black 2px double;
 }
 h5{
-    font-size: 45px;
     text-align: center;
     text-decoration: underline;
     margin-bottom: 20px;
-
 }
 .inf{
     background-color:rgb(241, 243, 245);
